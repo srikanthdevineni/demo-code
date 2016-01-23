@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileParser.Tests", "FileParser.Tests\FileParser.Tests.csproj", "{BFF2A812-DED1-4FC4-B49B-1C591C1F2194}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{DBFA78D7-6E5A-4F1A-B482-526D97C9D166}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Tests", "Common.Tests\Common.Tests.csproj", "{0A9A91F7-07CC-4A1A-9E90-399B5EB661CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Records.API", "Records.API\Records.API.csproj", "{F9FAC2BD-E96F-488A-BDE9-B2344314D556}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Records.API.Tests", "Records.API.Tests\Records.API.Tests.csproj", "{511FF784-D6AB-4C62-A813-FB76E1C14DF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileParser", "FileParser\FileParser.csproj", "{BE02DC1C-FB60-4403-BE04-339A5BE1261E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{6A142D68-06AF-4AA0-8D1A-93353BD25E58}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFF2A812-DED1-4FC4-B49B-1C591C1F2194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFF2A812-DED1-4FC4-B49B-1C591C1F2194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFF2A812-DED1-4FC4-B49B-1C591C1F2194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFF2A812-DED1-4FC4-B49B-1C591C1F2194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBFA78D7-6E5A-4F1A-B482-526D97C9D166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBFA78D7-6E5A-4F1A-B482-526D97C9D166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBFA78D7-6E5A-4F1A-B482-526D97C9D166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBFA78D7-6E5A-4F1A-B482-526D97C9D166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A9A91F7-07CC-4A1A-9E90-399B5EB661CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A9A91F7-07CC-4A1A-9E90-399B5EB661CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A9A91F7-07CC-4A1A-9E90-399B5EB661CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A9A91F7-07CC-4A1A-9E90-399B5EB661CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9FAC2BD-E96F-488A-BDE9-B2344314D556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9FAC2BD-E96F-488A-BDE9-B2344314D556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9FAC2BD-E96F-488A-BDE9-B2344314D556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9FAC2BD-E96F-488A-BDE9-B2344314D556}.Release|Any CPU.Build.0 = Release|Any CPU
+		{511FF784-D6AB-4C62-A813-FB76E1C14DF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{511FF784-D6AB-4C62-A813-FB76E1C14DF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{511FF784-D6AB-4C62-A813-FB76E1C14DF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{511FF784-D6AB-4C62-A813-FB76E1C14DF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE02DC1C-FB60-4403-BE04-339A5BE1261E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE02DC1C-FB60-4403-BE04-339A5BE1261E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE02DC1C-FB60-4403-BE04-339A5BE1261E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE02DC1C-FB60-4403-BE04-339A5BE1261E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

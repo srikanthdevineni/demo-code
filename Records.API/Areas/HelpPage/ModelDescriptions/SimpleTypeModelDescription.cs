@@ -1,0 +1,6 @@
+namespace Records.API.Areas.HelpPage.ModelDescriptions
+{
+    public class SimpleTypeModelDescription : ModelDescription
+    {
+    }
+}
